@@ -1,0 +1,73 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CSC</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome.min.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/responsive.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <script src="js/custom.js"></script>
+    </head>
+  <body class="login-page">
+    <div class="container-fluid">
+       <div class="row login-box">
+           <div class="col-md-8 login-box-inner">
+            <div class="row">
+                <div class="col-md-5" style="background: rgba(29, 27, 49, 0.9); border-radius: 20px 0 0 20px;">
+                    <div class="left-box">
+                        <img src="./img/signup.png">
+                    </div>                    
+               </div>
+               <div class="col-md-7 p-0">
+                    <div class="right-box">
+                        <h1>Signup</h1>
+                        <form class="signup_form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="name">Name</label>
+                                        <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter Name">                              
+                                      </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="email">Email address</label>
+                                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">                              
+                                      </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="Password1">Password</label>
+                                        <input type="password" class="form-control" id="Password1" placeholder="Password">
+                                      </div> 
+                                </div>
+                                
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="cPassword1">Confirm Password</label>
+                                        <input type="password" class="form-control" id="cPassword1" placeholder="Password">
+                                      </div> 
+                                </div>
+                            </div>
+                            
+                                                      
+                            <a href="${pageContext.request.contextPath}/index" class="btn btn-log mt-4">Sign up</a>
+                          </form>
+                    </div>
+               </div>
+            </div>
+           </div>
+       </div>
+    </div>
+   
+</body>
+</html>
