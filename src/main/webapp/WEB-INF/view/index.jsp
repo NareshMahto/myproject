@@ -30,10 +30,9 @@
 <link rel="stylesheet" href="resources/css/style.css">
 <link rel="stylesheet" href="resources/css/responsive.css">
 </head>
-</head>
 <body>
-
-	<%@ include file="header.jsp"%>
+<%@ include file="header.jsp"%>
+	
 	<!-- main-area -->
 	<main>
 

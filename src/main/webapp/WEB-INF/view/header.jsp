@@ -16,6 +16,7 @@
 <!-- Place favicon.ico in the root directory -->
 
 <!-- CSS here -->
+
 <link rel="stylesheet" href="resources/css/bootstrap.min.css">
 <link rel="stylesheet" href="resources/css/animate.min.css">
 <link rel="stylesheet" href="resources/css/magnific-popup.css">

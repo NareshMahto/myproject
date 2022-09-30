@@ -41,15 +41,10 @@ public class HomeController {
 		return "contact";
 	}
 
-	@RequestMapping("/video")
-	public ModelAndView homeMain1() {
-		ModelAndView mv = new ModelAndView("upload");
+	@GetMapping("/video")
+	public String listVideos(Model theMdel) {
 		
-		return mv;
-	}
-	@RequestMapping("/filesuccess")
-	public String showUploadForm2() {
-		return "filesuccess";
+		return "videos";
 	}
 
 }
